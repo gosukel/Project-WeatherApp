@@ -1,0 +1,61 @@
+.main {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  margin: 40px auto;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: stretch;
+  align-content: stretch;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  width: 60%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+
+.search-btn {
+  padding: 5px 25px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.location-text {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.location-icon {
+  height: 150px;
+}
